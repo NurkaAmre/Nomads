@@ -1,7 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Abhaya_Libre, Abril_Fatface, Aleo, Fjalla_One, Merriweather_Sans } from 'next/font/google'
+import { Abhaya_Libre, Abril_Fatface, Aleo, Fjalla_One, Merriweather_Sans, Poller_One } from 'next/font/google'
+import Header from '@/components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ const abhaya_libre = Abhaya_Libre({ weight: ['400', '500', '700'], subsets: ['la
 const aleo = Aleo({ weight: ['400'], subsets: ['latin'], variable: '--font-aloe' })
 const fjala_one = Fjalla_One({ weight: '400', subsets: ['latin'], variable: '--font-fjala_one' })
 const merriweather_sans = Merriweather_Sans({ weight: '400', subsets: ['latin'], variable: '--font-merriwheather_sans' })
+const poller_one = Poller_One({ weight: ['400'], subsets: ['latin'], variable: '--font-poller_one' })
 
 export default function RootLayout({
   children,
@@ -22,8 +24,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${abril_fatface.variable} ${abhaya_libre.variable} ${aleo.variable} ${fjala_one.variable} ${merriweather_sans.variable}`}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${abril_fatface.variable} ${abhaya_libre.variable} ${aleo.variable} ${fjala_one.variable} ${merriweather_sans.variable} ${poller_one.variable}`}>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
