@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <nav className='bg-[#131C27] text-white flex flex-col md:flex-row justify-between px-4 py-2 md:py-3 w-full fixed'>
+    <nav className='bg-[#131C27] text-white flex flex-col md:flex-row justify-between px-4 py-2 md:py-3 w-full fixed z-20'>
       <div className='flex justify-between'>
         <h1 className='font-poller text-2xl text-[#797DA5] md:px-4 md:text-3xl]'>Nomads.</h1>
         <div className='md:hidden text-3xl'>
