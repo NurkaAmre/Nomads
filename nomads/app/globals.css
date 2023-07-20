@@ -4,11 +4,5 @@
 
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(90deg, #122636 14%, #1c202f 36%, rgba(20, 33, 55, 0.92) 52%, #182d42 83%);
 }
