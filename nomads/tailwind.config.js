@@ -12,6 +12,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      width: {
+        '200': '300px',
+      },
+      height: {
+        '150': '450px',
+      },
        fontFamily: {
         abril: ['var(--font-abril_fatface)'],
         abhaya: ['var(--font-abhaya_libre)'],
