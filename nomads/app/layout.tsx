@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${abril_fatface.variable} ${abhaya_libre.variable} ${aleo.variable} ${fjala_one.variable} ${merriweather_sans.variable} ${poller_one.variable}`}>
-      <body className={inter.className}>
+      <body className="overflow-x-hidden">
         <Header />
         {children}
       </body>
