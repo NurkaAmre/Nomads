@@ -28,7 +28,7 @@ module.exports = {
         abhaya: ['var(--font-abhaya_libre)'],
         aloe: ['var(--font-aloe)'],
         fjala: ['var(--font-fjala_one)'],
-         merri: ['var(--font-merriweather_sans)'],
+        merri: ['var(--font-merriweather_sans)'],
         poller: ['var(--font-poller_one)'],
       },
     },
