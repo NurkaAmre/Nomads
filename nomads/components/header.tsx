@@ -1,9 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FiSearch, FiMenu } from 'react-icons/fi';
-import { AiOutlineSearch, AiOutlineMenu } from 'react-icons/ai';
-import { FaSearch, FaHamburger } from 'react-icons/fa';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { FaSearch } from 'react-icons/fa';
 
 
 const Header = () => {

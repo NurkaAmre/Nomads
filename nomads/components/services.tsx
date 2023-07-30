@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaPlane, FaHotel, FaTruck, FaBed, } from 'react-icons/fa';
-import { AiOutlineMenu } from 'react-icons/ai';
 import Image from 'next/image';
 import bus from '@/public/bus.png'
 import hotel from '@/public/hotel.png'
