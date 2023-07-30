@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { FiSearch, FiMenu } from 'react-icons/fi';
+import { AiOutlineSearch, AiOutlineMenu } from 'react-icons/ai';
+import { FaSearch, FaHamburger } from 'react-icons/fa';
 
 
 const Header = () => {
@@ -14,10 +16,10 @@ const Header = () => {
   return (
     <nav className='bg-[#131C27] text-white flex flex-col md:flex-row justify-between px-4 py-2 md:py-3 w-full fixed z-20'>
       <div className='flex justify-between'>
-        <h1 className='font-poller text-2xl text-[#797DA5] md:px-4 md:text-3xl]'>Nomads.</h1>
+        <h1 className='font-abril text-2xl text-[#797DA5] md:px-4 md:text-6xl]'>Nomads.</h1>
         <div className='md:hidden text-3xl'>
           <button onClick={toggleMenu} className='text-white'>
-            <FiMenu />
+            <AiOutlineMenu />
           </button>
         </div>
       </div>
@@ -39,7 +41,7 @@ const Header = () => {
         </li>
       </ul>
       <div className='flex mt-4 md:mt-0 rounded-full desktop-content search-box px-1 mx-6 justify-center items-center w-4/3 md:w-1/4 bg-slate-50'>
-        <FiSearch />
+        <FaSearch />
         <input
           type='text'
           placeholder='Search...'

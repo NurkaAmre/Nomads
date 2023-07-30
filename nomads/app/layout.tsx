@@ -16,7 +16,7 @@ const abhaya_libre = Abhaya_Libre({ weight: ['400', '500', '700'], subsets: ['la
 const aleo = Aleo({ weight: ['400'], subsets: ['latin'], variable: '--font-aloe' })
 const fjala_one = Fjalla_One({ weight: '400', subsets: ['latin'], variable: '--font-fjala_one' })
 const merriweather_sans = Merriweather_Sans({ weight: '400', subsets: ['latin'], variable: '--font-merriwheather_sans' })
-const poller_one = Poller_One({ weight: ['400'], subsets: ['latin'], variable: '--font-poller_one' })
+const poller = Poller_One({ weight: ['400'], subsets: ['latin'], variable: '--font-poller' })
 
 export default function RootLayout({
   children,
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${abril_fatface.variable} ${abhaya_libre.variable} ${aleo.variable} ${fjala_one.variable} ${merriweather_sans.variable} ${poller_one.variable}`}>
+    <html lang="en" className={`${abril_fatface.variable} ${abhaya_libre.variable} ${aleo.variable} ${fjala_one.variable} ${merriweather_sans.variable} ${poller.variable}`}>
       <body className="overflow-x-hidden">
         <Header />
         {children}
