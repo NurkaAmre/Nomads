@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Todo = () => {
   return (
@@ -22,6 +23,26 @@ const Todo = () => {
             <button className='rounded-full border-2 bg-[#6491C9] text-xl font-abhaya font-light px-6 py-2 hover:bg-transparent hover:border-[#6491C9]'>Family</button>
           </li>
         </ul>
+        <div>
+          <div>
+            <Image />
+            <div>
+              Arts & Culture
+            </div>
+          </div>
+          <div>
+            <Image />
+            <div>
+              Foods & Drink
+            </div>
+          </div>
+          <div>
+            <Image />
+            <div>
+              Festivals & Events
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
